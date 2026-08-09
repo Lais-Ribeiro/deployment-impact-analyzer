@@ -66,6 +66,12 @@ python gerar_dados_ficticios.py
 
 O script imprime o horário do deploy simulado ao final. Guarde esse horário — é ele que você vai informar na análise.
 
+**5. Consulte uma API**
+
+```bash
+python buscar_api.py
+```
+
 **5. Rode a análise**
 
 ```bash
@@ -157,7 +163,7 @@ O contêiner do Elasticsearch roda com limite de memória baixo, para caber em u
 - [x] Ambiente com Elasticsearch e Grafana em Docker
 - [x] Conexão com o Elasticsearch
 - [x] Gerador de dados fictícios com cenário de deploy
-- [ ] Consulta de métricas por período
+- [X] Consulta de métricas por período
 - [ ] Comparação antes x depois
 - [ ] Normalização e agrupamento de padrões de erro
 - [ ] Dashboards no Grafana
